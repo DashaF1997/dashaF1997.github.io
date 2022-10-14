@@ -1,0 +1,331 @@
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    h1,h2{
+        color:green;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h3{
+        background: gray;
+        text-align: justify;
+        font-size: 22px;
+        margin: 22px auto;
+    }
+    .text-align_center{
+        text-align: center;
+    }
+    .finalStep{
+        color: white;
+        border: 2px dotted white;
+    }
+    .ingredients{
+        padding: 10px 30px;
+        width: 300px;
+        border: 3px solid orange;
+    }
+    #ingredients_2{
+        margin-top: 15px;
+    }
+    .fontSize_30{
+        font-size: 30px
+    }
+    .footer{
+        font-size: 20px;
+    }
+    #globalDiv{
+        width: 1200px;
+        margin: 0px auto;
+        
+
+    }
+    #recipeHistory{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 100;
+        margin: 50px 0 50px
+    }
+    .ingredients>p{
+        text-align: center;
+    }
+    div div>p{
+        margin: 16px auto;
+    }
+    .level_1{
+        text-align: center;
+        margin: 30px auto 30px;
+        font-size: 0;
+        
+    }
+    ul li{
+        display: inline-block;
+        font-size: 24px;
+        background: gray;
+        position: relative;
+        
+    }
+    .level_1 li+li{
+        border-left: 2px solid white;
+    }
+    ul li:hover{
+        background: orange;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 30px;
+        display: block;
+    }
+    .level_1 .level_2{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+    }
+    .level_1 .level_2 li{
+        border: none;
+        border-top: 2px solid white;
+        width: 140.14px;
+    }
+    .level_1 li:hover .level_2{
+        display: block;
+    }
+    .level_1 .level_2 .level_3{
+        position: absolute;
+        top: 0;
+        left: 100%;
+        display: none;
+    }
+    .level_1 .level_2 li:hover .level_3{
+        display: block;
+    }
+
+    .level_1 .level_2 .level_4{
+        position: absolute;
+        bottom: 0;
+        right: 100%;
+        display: none;
+    }
+    .level_1 .level_2 li:hover .level_4{
+        display: block;
+    }
+    .level_1 .level_2 .level_4 li a{
+        padding: 10px 0;
+    }
+    .wrapper{
+            width: 1200px;
+            margin: 0 auto;
+            background: blue;
+    }
+    .block{
+        outline: 2px solid black;
+        padding: 10px 0;
+    }
+    .block div{
+        background: yellow;
+        outline: 2px solid black;
+    }
+    .w_800 {
+        width: 800px;
+    }
+    .w_400{
+        width: 400px;
+    }
+    .t_cell{
+        display: table-cell;
+    }
+    .in_b{
+        font-size: 0;
+    }
+    .in_b .t_cell{
+        display: inline-block;
+        font-size: 15px;
+    }
+    .fl_l {
+        float: left;
+    }
+   .clr {
+       clear: left;
+   }
+   .clearfix:after{
+       content: "";
+       clear: both;
+       display: block;
+   }
+   .flex {
+        display: flex;
+        outline: 2px solid black;
+        padding: 10px 0;
+    }
+    .flex div {
+        background: yellow;
+        outline: 2px solid black;
+    }
+    .w_800_flex {
+        flex: 0 1 800px;
+    }
+    .w_400_flex {
+        flex: 0 1 400px;
+    }
+    .flex1 {
+    display: flex;
+    outline: 2px solid black;
+    justify-content: stretch;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        outline: 2px solid black;
+        padding: 10px 0;
+    }
+    .grid div {
+        background: yellow;
+        outline: 2px solid black;
+
+    }
+    .grid_2 {
+        display: grid;
+        grid-template-columns: 800px 400px;
+        outline: 2px solid black;
+        padding: 10px 0;
+    }
+    .grid_2 div {
+        background: green;
+        outline: 2px solid black;
+    }
+
+    .grid_3 {
+        display: grid;
+        grid-template-columns: 400px 800px;
+        outline: 2px solid black;
+        padding: 10px 0;
+    }
+    .grid_3 div {
+        background: lime;
+        outline: 2px solid black;
+    }
+    .grid_4 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        outline: 2px solid black;
+    }
+    .grid_4 div {
+        background: orange;
+        outline: 2px solid black;
+    }
+    .wrapper_1 {
+            width: 1200px;
+            margin: 0 auto;
+            background: blue;
+            display: grid;
+        grid-template-areas:
+        "A B C"
+        "D D E"
+        "D D F"
+        "H H F"
+        "H H G"
+        "I J J"
+        "I K L"
+        "M M N"
+        "O Q N"
+        "P Q N";
+    }
+
+    .wrapper_1>div{
+        outline: 2px solid black;
+        background: yellow;
+    }
+    .test1{
+        grid-area: A;
+    }
+    .test2{
+        grid-area: B;
+    }
+    .test3{
+        grid-area: C;
+    }
+    .test4{
+        grid-area: D;
+    }
+    .test5{
+        grid-area: E;
+    }
+    .test6{
+        grid-area: F;
+    }
+    .test7{
+        grid-area: H;
+    }
+    .test8{
+        grid-area: G
+    }
+    .test9{
+        grid-area: I;
+    }
+    .test10{
+        grid-area: J;
+    }
+    .test11{
+        grid-area: K;
+    }
+    .test12{
+        grid-area: L;
+    }
+    .test13{
+        grid-area: M;
+    }
+    .test14{
+        grid-area: N;
+    }
+    .test15{
+        grid-area: O;
+    }
+    .test16{
+        grid-area: Q;
+    }
+    .test17{
+        grid-area: P;
+    }
+    
