@@ -144,7 +144,7 @@
         top: 0;
         right: 0;
     }
-    .level_1 .blocks:hover>a:after{
+    .level_1 .blocks:hover>a:before{
         background-position: -150px 0;
         margin-left: 5px;
     }
