@@ -96,6 +96,7 @@
         text-align: center;
         margin: 30px auto 30px;
         font-size: 0;
+        position: relative;
         
     }
     .menu li{
@@ -193,7 +194,7 @@
         width: 175.14px;
 
     }
-    .level_1:hover .level_2{
+    .level_1 li:hover .level_2{
         height: 208px;
         overflow: visible;
 
