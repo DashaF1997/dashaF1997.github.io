@@ -194,11 +194,12 @@
         width: 175.14px;
 
     }
-    .level_1 li:hover .level_2{
+   .blocks:hover .level_2{
         height: 208px;
-        overflow: visible;
-
         
+    }
+    .level_2:hover{ 
+    overflow: visible;
     }
     .level_1 .level_2 .level_3{
         position: absolute;
